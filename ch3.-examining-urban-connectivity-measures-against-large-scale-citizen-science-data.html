@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Ch. 4 Ch3. Examining urban connectivity measures against large-scale citizen science data | PhD Progress book</title>
+  <meta name="description" content="Ch. 4 Ch3. Examining urban connectivity measures against large-scale citizen science data | PhD Progress book" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Ch. 4 Ch3. Examining urban connectivity measures against large-scale citizen science data | PhD Progress book" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Ch. 4 Ch3. Examining urban connectivity measures against large-scale citizen science data | PhD Progress book" />
+  
+  
+  
+
+<meta name="author" content="Andrew Habrich" />
+
+
+<meta name="date" content="2025-10-01" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html"/>
+<link rel="next" href="references.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Habrich - PhD progress</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#usage"><i class="fa fa-check"></i><b>1.1</b> Usage</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#research-topic"><i class="fa fa-check"></i><b>1.2</b> Research topic</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html"><a href="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html"><i class="fa fa-check"></i><b>2</b> Ch1. A systematic map of urban connectivity validation efforts</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html"><a href="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html#a-systematic-map"><i class="fa fa-check"></i><b>2.1</b> A systematic map</a></li>
+<li class="chapter" data-level="2.2" data-path="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html"><a href="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html#research-questions"><i class="fa fa-check"></i><b>2.2</b> Research questions:</a></li>
+<li class="chapter" data-level="2.3" data-path="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html"><a href="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html#methods"><i class="fa fa-check"></i><b>2.3</b> Methods</a></li>
+<li class="chapter" data-level="2.4" data-path="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html"><a href="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html#results"><i class="fa fa-check"></i><b>2.4</b> Results</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html"><a href="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html#study-objectives-and-validation"><i class="fa fa-check"></i><b>2.4.1</b> Study objectives and validation</a></li>
+<li class="chapter" data-level="2.4.2" data-path="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html"><a href="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html#validation-of-urban-connectivity-models"><i class="fa fa-check"></i><b>2.4.2</b> Validation of urban connectivity models</a></li>
+<li class="chapter" data-level="2.4.3" data-path="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html"><a href="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html#biological-data-used-for-validation"><i class="fa fa-check"></i><b>2.4.3</b> Biological data used for validation</a></li>
+<li class="chapter" data-level="2.4.4" data-path="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html"><a href="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html#taxonomic-group-representation"><i class="fa fa-check"></i><b>2.4.4</b> Taxonomic group representation</a></li>
+<li class="chapter" data-level="2.4.5" data-path="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html"><a href="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html#future-research-needs-of-the-discipline"><i class="fa fa-check"></i><b>2.4.5</b> Future research needs of the discipline</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html"><a href="ch1.-a-systematic-map-of-urban-connectivity-validation-efforts.html#next-steps"><i class="fa fa-check"></i><b>2.5</b> Next steps:</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html"><a href="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html"><i class="fa fa-check"></i><b>3</b> Ch2. How does Urban Connectivity affect Biological Responses? A meta-analysis</a>
+<ul>
+<li class="chapter" data-level="" data-path="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html"><a href="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html#how-does-urban-connectivity-affect-biological-responses"><i class="fa fa-check"></i>How does urban connectivity affect biological responses?</a></li>
+<li class="chapter" data-level="3.1" data-path="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html"><a href="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html#methods-1"><i class="fa fa-check"></i><b>3.1</b> Methods</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html"><a href="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html#search-strategy"><i class="fa fa-check"></i><b>3.1.1</b> Search strategy</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html"><a href="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html#screening-process"><i class="fa fa-check"></i><b>3.2</b> Screening process</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html"><a href="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html#eligibility-criteria"><i class="fa fa-check"></i><b>3.2.1</b> Eligibility criteria</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html"><a href="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html#data-extraction-and-effect-size-calculation"><i class="fa fa-check"></i><b>3.3</b> Data extraction and effect size calculation:</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html"><a href="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html#moderator-variable-data-sources"><i class="fa fa-check"></i><b>3.3.1</b> Moderator variable data sources</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html"><a href="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html#multilevel-meta-analysis-models"><i class="fa fa-check"></i><b>3.4</b> Multilevel meta-analysis models</a></li>
+<li class="chapter" data-level="3.5" data-path="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html"><a href="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html#results-1"><i class="fa fa-check"></i><b>3.5</b> Results</a>
+<ul>
+<li class="chapter" data-level="3.5.1" data-path="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html"><a href="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html#screening-efforts"><i class="fa fa-check"></i><b>3.5.1</b> Screening efforts</a></li>
+<li class="chapter" data-level="3.5.2" data-path="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html"><a href="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html#meta-analysis-models"><i class="fa fa-check"></i><b>3.5.2</b> Meta-analysis models</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html"><a href="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html#great-now-what"><i class="fa fa-check"></i><b>3.6</b> Great, now what?</a></li>
+<li class="chapter" data-level="3.7" data-path="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html"><a href="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html#next-steps-1"><i class="fa fa-check"></i><b>3.7</b> Next steps:</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html"><a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html"><i class="fa fa-check"></i><b>4</b> Ch3. Examining urban connectivity measures against large-scale citizen science data</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html"><a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#research-question"><i class="fa fa-check"></i><b>4.1</b> Research question</a></li>
+<li class="chapter" data-level="4.2" data-path="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html"><a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#ebird-dataset-download"><i class="fa fa-check"></i><b>4.2</b> eBird dataset download</a></li>
+<li class="chapter" data-level="4.3" data-path="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html"><a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#methods-2"><i class="fa fa-check"></i><b>4.3</b> Methods</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html"><a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#measurements-of-biodiversity"><i class="fa fa-check"></i><b>4.3.1</b> Measurements of biodiversity</a></li>
+<li class="chapter" data-level="4.3.2" data-path="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html"><a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#quantifying-urban-connectivity"><i class="fa fa-check"></i><b>4.3.2</b> Quantifying urban connectivity</a></li>
+<li class="chapter" data-level="4.3.3" data-path="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html"><a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#generalized-additive-modelling"><i class="fa fa-check"></i><b>4.3.3</b> Generalized additive modelling</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html"><a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#results-2"><i class="fa fa-check"></i><b>4.4</b> Results</a></li>
+<li class="chapter" data-level="4.5" data-path="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html"><a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#next-steps-2"><i class="fa fa-check"></i><b>4.5</b> Next steps:</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">PhD Progress book</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Ch. 4</span> Ch3. Examining urban connectivity measures against large-scale citizen science data<a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>The following R packages (and their versions) were used to generate this report. In addition the functional connectivity metrics were using <em>Omniscape</em> implemented in Julia, outsite of the R environment (<a href="https://docs.circuitscape.org/Omniscape.jl/latest/">About Omniscape implementation in Julia</a>).</p>
+<pre><code>##          emmeans          orchaRd          metafor 
+##         &quot;1.11.1&quot;          &quot;2.1.3&quot;          &quot;4.8-0&quot; 
+##         numDeriv          metadat           Matrix 
+##     &quot;2016.8-1.1&quot;          &quot;1.4-0&quot;          &quot;1.7-3&quot; 
+##        rphylopic       synthesisr        ggspatial 
+##          &quot;1.5.0&quot;          &quot;0.3.0&quot;          &quot;1.1.9&quot; 
+##          mapview    rnaturalearth          geodata 
+##         &quot;2.11.2&quot;          &quot;1.0.1&quot;          &quot;0.6-6&quot; 
+##              see           report       parameters 
+##       &quot;0.12.0.1&quot;        &quot;0.6.1.6&quot;         &quot;0.28.2&quot; 
+##      performance       modelbased          insight 
+##         &quot;0.15.1&quot;       &quot;0.13.0.7&quot;        &quot;1.4.2.2&quot; 
+##       effectsize       datawizard      correlation 
+##        &quot;1.0.1.2&quot;        &quot;1.2.0.7&quot;          &quot;0.8.8&quot; 
+##       bayestestR        easystats          itsadug 
+##       &quot;0.17.0.1&quot;          &quot;0.7.5&quot;          &quot;2.4.1&quot; 
+##    plotfunctions              auk        Makurhini 
+##            &quot;1.4&quot;          &quot;0.8.2&quot;            &quot;3.0&quot; 
+##       cppRouting           igraph            rgbif 
+##            &quot;3.1&quot;          &quot;2.1.4&quot;          &quot;3.8.2&quot; 
+##          xgboost     randomForest           maxnet 
+##       &quot;1.7.11.1&quot;        &quot;4.7-1.2&quot;          &quot;0.1.4&quot; 
+##            earth           plotmo          plotrix 
+##          &quot;5.3.4&quot;          &quot;3.6.4&quot;          &quot;3.8-4&quot; 
+##          Formula              gbm             mgcv 
+##          &quot;1.2-5&quot;          &quot;2.2.2&quot;          &quot;1.9-3&quot; 
+##             nlme              gam          foreach 
+##        &quot;3.1-168&quot;         &quot;1.22-5&quot;          &quot;1.5.2&quot; 
+##              mda            class            rpart 
+##          &quot;0.5-5&quot;         &quot;7.3-23&quot;         &quot;4.1.24&quot; 
+##             nnet          biomod2 landscapemetrics 
+##         &quot;7.3-20&quot;        &quot;4.2-6-2&quot;          &quot;2.2.1&quot; 
+##    exactextractr               sf            terra 
+##         &quot;0.10.0&quot;         &quot;1.0-21&quot;         &quot;1.8-54&quot; 
+##            vegan          permute           ggpubr 
+##          &quot;2.7-1&quot;          &quot;0.9-8&quot;          &quot;0.6.1&quot; 
+##     DataExplorer        lubridate          forcats 
+##          &quot;0.8.3&quot;          &quot;1.9.4&quot;          &quot;1.0.0&quot; 
+##          stringr            dplyr            purrr 
+##          &quot;1.5.1&quot;          &quot;1.1.4&quot;          &quot;1.1.0&quot; 
+##            readr            tidyr           tibble 
+##          &quot;2.1.5&quot;          &quot;1.3.1&quot;          &quot;3.3.0&quot; 
+##          ggplot2        tidyverse      tarchetypes 
+##          &quot;4.0.0&quot;          &quot;2.0.0&quot;         &quot;0.13.1&quot; 
+##          targets 
+##         &quot;1.11.3&quot;</code></pre>
+<div id="research-question" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Research question<a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#research-question" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Now that I’ve assessed assessed <em>how</em> urban connectivity is measured and quantified the magnitude of effect in the literature, I’m left with another thought:</p>
+<blockquote>
+<p><em>How</em> should we measure urban connectivity, and at <em>what</em> spatial scale?</p>
+</blockquote>
+<p>While the meta-analysis revealed the relative magnitude of the effect, even when evaluating the same taxa, the studies used different datasets with different estimates of connectivity.</p>
+<p>To try and answer my sticky thought you would have to compare a consistent (semi-) structured dataset that covers a large geographic extent, sampled in cities against the different types of connectivity estimates at multiple spatial scales.</p>
+<p>Birds are the most commonly studied taxon for evaluating urban connectivity models likely due to the availability of bird biodiversity data in cities. Moreover, the features of urban environments, including impervious surfaces, managed parks, and vegetated corridors, are known to affect movement of birds. <em>Nevertheless</em>, although more than 50 studies have evaluated urban connectivity for birds, <strong>none</strong> of them controlled for the confounding of habitat amount with connectivity metrics in their reporting.</p>
+<p>Thus, despite being a well-studied group, the specific effects of urban connectivity - as opposed to simple habitat availability – on bird abundance and diversity remain poorly understood.</p>
+<p>This thesis chapter is dedicated to trying to answer this question, using the eBird dataset and remote-sensed data to compare models of landscape connectivity for the most populated urban areas in Canada. I chose to limit it to Canada to manage (less) data, to take advantage of consistent Canadian data products, and to identify actionable steps at a national level without concerning myself with inter-border complications.</p>
+<blockquote>
+<p><em>IF</em> the results from the meta-analysis are applicable, I predict that the functional connectivity metrics should fit the data the best, compared to purely structural connectivity measures.</p>
+</blockquote>
+<p>Specifically for <strong>species richness</strong> I predict that there’ll be a <strong>unimodal relationship</strong> with connectivity <span class="citation">(<a href="#ref-bat%C3%A1ry2018">Batáry et al. 2018</a>; <a href="#ref-callaghan2024">Callaghan, Chase, and McGlinn 2024</a>)</span>. At low levels, limited movement restricts colonization; at intermediate levels, moderate connectivity supports coexistence of diverse species; but at high levels, dominant generalists may exclude poorer competitors, leading to richness declines.</p>
+<ul>
+<li></li>
+</ul>
+</div>
+<div id="ebird-dataset-download" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> eBird dataset download<a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#ebird-dataset-download" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>First, the dataset needs to be downloaded and cleaned up to get the relevant data to estimate species diversity. Note however, that the complete dataset as of Aug. 2023 is &gt;500 gb of text (impossible to open with a text editor). Access requires use of a custom R package, <em>auk</em> (<a href="https://cornelllabofornithology.github.io/auk/" class="uri">https://cornelllabofornithology.github.io/auk/</a>).</p>
+<p>The dataset itself is downloadable with a free account on the ebird website (<a href="https://ebird.org/home" class="uri">https://ebird.org/home</a>) or through Global biodiversity information facility (<a href="https://www.gbif.org/dataset/4fa7b334-ce0d-4e88-aaae-2e0c138d049e" class="uri">https://www.gbif.org/dataset/4fa7b334-ce0d-4e88-aaae-2e0c138d049e</a>)</p>
+<p>eBird and other community-collected datasets are generally “semi-structured” checklists where individuals can report both incidental observations, and complete surveys. To estimate biodiversity, the data needs to be filtered to minimize biases in the metrics of interest (species richness, eveness, etc.).</p>
+</div>
+<div id="methods-2" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Methods<a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#methods-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Due to the enormity of the complete dataset, I needed a systematic way of filtering the dataset that was semi-automated, transparent, repeatable and not reliant on computationally intense for-loops. Using the <em>targets</em> R package (<a href="https://docs.ropensci.org/targets/" class="uri">https://docs.ropensci.org/targets/</a>), an open-source pipeline tool, and a collection of custom functions I’ve written, I developed the following pipeline to:</p>
+<ul>
+<li>Filter the original ebird dataset to the latest Canadian census data urban area delination for cities with &gt;100000 people (2021, <a href="https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/index-eng.cfm" class="uri">https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/index-eng.cfm</a>), buffered by 5km to capture any data just outside the city limits.</li>
+<li>Format and tidy datasets to calculate biodiversity estimates for complete checklists.</li>
+<li>Calculate some biodiversity metrics.</li>
+<li>Estimate connectivity metrics representative of each connectivity type.</li>
+<li>Model the relationship between the response and connectivity</li>
+<li>Compare relative fit across scales.</li>
+</ul>
+<div id="measurements-of-biodiversity" class="section level3 hasAnchor" number="4.3.1">
+<h3><span class="header-section-number">4.3.1</span> Measurements of biodiversity<a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#measurements-of-biodiversity" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>I will show only the results for species richness as the biological response. Total abundance and eveness are also other potential responses of interest. The eBird checklist data was filtered and tidied as follows:</p>
+<ol style="list-style-type: decimal">
+<li>Complete checklists only</li>
+<li>Checklists submitted within the boundary of one of the populated urban areas</li>
+<li>Checklist submitted between 2012-2022</li>
+<li>Within breeding bird season (Start of April - End of August)</li>
+<li>Only 1 observer</li>
+<li>Less than 120 mins checklist duration</li>
+<li>Less than 6km travelled</li>
+</ol>
+<p>In the end, I had 161000~ checklists from 18 cities in Canada.</p>
+<table class="table table-striped" style="margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:citysummary">Table 4.1: </span>Summary of the eBird checklist data from 18 cities in Canada
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;">
+City
+</th>
+<th style="text-align:left;">
+num. Chkl
+</th>
+<th style="text-align:center;">
+Spec. Richness (avg)
+</th>
+<th style="text-align:left;">
+Spec. Richness (sd)
+</th>
+<th style="text-align:center;">
+Abundance (avg)
+</th>
+<th style="text-align:left;">
+abundance (avg)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+Toronto
+</td>
+<td style="text-align:left;">
+34791
+</td>
+<td style="text-align:center;">
+21.08402
+</td>
+<td style="text-align:left;">
+10.881379
+</td>
+<td style="text-align:center;">
+142.82993
+</td>
+<td style="text-align:left;">
+234.00678
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Montreal
+</td>
+<td style="text-align:left;">
+23375
+</td>
+<td style="text-align:center;">
+18.30387
+</td>
+<td style="text-align:left;">
+9.193453
+</td>
+<td style="text-align:center;">
+142.52791
+</td>
+<td style="text-align:left;">
+372.54465
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Ottawa
+</td>
+<td style="text-align:left;">
+18729
+</td>
+<td style="text-align:center;">
+18.11800
+</td>
+<td style="text-align:left;">
+9.852672
+</td>
+<td style="text-align:center;">
+143.69160
+</td>
+<td style="text-align:left;">
+341.73322
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Vancouver
+</td>
+<td style="text-align:left;">
+15906
+</td>
+<td style="text-align:center;">
+20.67478
+</td>
+<td style="text-align:left;">
+9.785318
+</td>
+<td style="text-align:center;">
+159.57148
+</td>
+<td style="text-align:left;">
+300.62602
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Calgary
+</td>
+<td style="text-align:left;">
+13607
+</td>
+<td style="text-align:center;">
+16.73352
+</td>
+<td style="text-align:left;">
+8.564434
+</td>
+<td style="text-align:center;">
+158.18270
+</td>
+<td style="text-align:left;">
+314.16931
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Quebec
+</td>
+<td style="text-align:left;">
+12936
+</td>
+<td style="text-align:center;">
+16.42633
+</td>
+<td style="text-align:left;">
+8.743998
+</td>
+<td style="text-align:center;">
+141.73299
+</td>
+<td style="text-align:left;">
+328.24168
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Edmonton
+</td>
+<td style="text-align:left;">
+6462
+</td>
+<td style="text-align:center;">
+16.37574
+</td>
+<td style="text-align:left;">
+9.087953
+</td>
+<td style="text-align:center;">
+119.54952
+</td>
+<td style="text-align:left;">
+237.84606
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Kitchener
+</td>
+<td style="text-align:left;">
+6452
+</td>
+<td style="text-align:center;">
+20.27309
+</td>
+<td style="text-align:left;">
+10.344439
+</td>
+<td style="text-align:center;">
+104.62260
+</td>
+<td style="text-align:left;">
+102.71502
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Winnipeg
+</td>
+<td style="text-align:left;">
+6049
+</td>
+<td style="text-align:center;">
+15.46090
+</td>
+<td style="text-align:left;">
+9.236754
+</td>
+<td style="text-align:center;">
+102.66556
+</td>
+<td style="text-align:left;">
+190.70006
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+London
+</td>
+<td style="text-align:left;">
+5426
+</td>
+<td style="text-align:center;">
+20.31036
+</td>
+<td style="text-align:left;">
+9.797389
+</td>
+<td style="text-align:center;">
+98.56506
+</td>
+<td style="text-align:left;">
+119.69861
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Halifax
+</td>
+<td style="text-align:left;">
+4352
+</td>
+<td style="text-align:center;">
+16.64499
+</td>
+<td style="text-align:left;">
+7.271320
+</td>
+<td style="text-align:center;">
+98.61121
+</td>
+<td style="text-align:left;">
+88.12079
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Regina
+</td>
+<td style="text-align:left;">
+2893
+</td>
+<td style="text-align:center;">
+18.15209
+</td>
+<td style="text-align:left;">
+10.679816
+</td>
+<td style="text-align:center;">
+251.73799
+</td>
+<td style="text-align:left;">
+456.53103
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Kingston
+</td>
+<td style="text-align:left;">
+2413
+</td>
+<td style="text-align:center;">
+21.24119
+</td>
+<td style="text-align:left;">
+10.560605
+</td>
+<td style="text-align:center;">
+132.95856
+</td>
+<td style="text-align:left;">
+165.57024
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Detroit
+</td>
+<td style="text-align:left;">
+2362
+</td>
+<td style="text-align:center;">
+22.34505
+</td>
+<td style="text-align:left;">
+9.938007
+</td>
+<td style="text-align:center;">
+129.04022
+</td>
+<td style="text-align:left;">
+178.72972
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Abbotsford
+</td>
+<td style="text-align:left;">
+1747
+</td>
+<td style="text-align:center;">
+18.74699
+</td>
+<td style="text-align:left;">
+7.661891
+</td>
+<td style="text-align:center;">
+134.06869
+</td>
+<td style="text-align:left;">
+122.12465
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Saskatoon
+</td>
+<td style="text-align:left;">
+1711
+</td>
+<td style="text-align:center;">
+16.41496
+</td>
+<td style="text-align:left;">
+9.802416
+</td>
+<td style="text-align:center;">
+128.97428
+</td>
+<td style="text-align:left;">
+226.15404
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Barrie
+</td>
+<td style="text-align:left;">
+1624
+</td>
+<td style="text-align:center;">
+20.53325
+</td>
+<td style="text-align:left;">
+11.552666
+</td>
+<td style="text-align:center;">
+143.60099
+</td>
+<td style="text-align:left;">
+243.26603
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Brantford
+</td>
+<td style="text-align:left;">
+806
+</td>
+<td style="text-align:center;">
+27.47146
+</td>
+<td style="text-align:left;">
+11.201644
+</td>
+<td style="text-align:center;">
+150.22457
+</td>
+<td style="text-align:left;">
+139.74504
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="quantifying-urban-connectivity" class="section level3 hasAnchor" number="4.3.2">
+<h3><span class="header-section-number">4.3.2</span> Quantifying urban connectivity<a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#quantifying-urban-connectivity" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Essentially I used a hi-res land cover dataset (<a href="https://esa-worldcover.org/en/data-access" class="uri">https://esa-worldcover.org/en/data-access</a>) as the basis to estimate connectivity. This was chosen to capture land cover at a resolution relevant to bird movement and behaviour. See the methodological framework diagram below (Fig. 1)</p>
+<div class="float">
+<img src="images/ch3_fig1_MethodologyDiagram.drawio.png" alt="Fig. 1: Methodological overview of the study, with data sources used to quantify specific connectivity estimates. All connectivity estimates were sampled at 3 spatial scales in a buffer around the checklists (500m, 1000m, 1500m)." />
+<div class="figcaption">Fig. 1: Methodological overview of the study, with data sources used to quantify specific connectivity estimates. All connectivity estimates were sampled at 3 spatial scales in a buffer around the checklists (500m, 1000m, 1500m).</div>
+</div>
+<div id="structural-connectivity" class="section level4 hasAnchor" number="4.3.2.1">
+<h4><span class="header-section-number">4.3.2.1</span> Structural connectivity<a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#structural-connectivity" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Estimated using ‘landscapemetrics’ R package (<a href="https://r-spatialecology.github.io/landscapemetrics/reference/list_lsm.html" class="uri">https://r-spatialecology.github.io/landscapemetrics/reference/list_lsm.html</a>) using the landcover map for all the checklist locations. The choices of metric was informed by what I found in the meta-analysis. All of these metrics have been used and described as ‘connectivity’ in the urban ecology literature.</p>
+</div>
+<div id="graph-connectivity" class="section level4 hasAnchor" number="4.3.2.2">
+<h4><span class="header-section-number">4.3.2.2</span> Graph connectivity<a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#graph-connectivity" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Estimated using the ‘Makurhini’ R package (a.k.a. connectscape; <a href="https://connectscape.github.io/Makurhini/index.html" class="uri">https://connectscape.github.io/Makurhini/index.html</a>) using the same landcover map as the structural connectivity measures.</p>
+<dl>
+<dt>Probability of connectivity</dt>
+<dd>
+<p>Measures the probability that two randomly selected points within a landscape fall into connected habitat patches, delimited by species dispersal range.</p>
+</dd>
+<dt>Equivalent connected area</dt>
+<dd>
+<p>Measures the amount of habitat in a maximally connected set of patches, delimited by species dispersal range.</p>
+</dd>
+</dl>
+</div>
+<div id="potential-connectivity" class="section level4 hasAnchor" number="4.3.2.3">
+<h4><span class="header-section-number">4.3.2.3</span> Potential connectivity<a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#potential-connectivity" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>These were manually calculated from the derived measurements from ‘landscapemetrics’. The actual formulas can be found in <span class="citation">(<a href="#ref-keeley2021">Keeley, Beier, and Jenness 2021</a>; <a href="#ref-moilanen2002">Moilanen and Nieminen 2002</a>; <a href="#ref-mcgarigalk.2023">McGarigal K., Cushman SA., and Ene E. 2023</a>)</span></p>
+<dl>
+<dt>Incidence function measure (Si)</dt>
+<dd>
+<p>Quantifies connectivity of a focal patch by taking into account the sizes of the neighboring patches, a negative exponential dispersal kernel, the distance between the patches. Summed across patches to get a landscape estimate.</p>
+</dd>
+<dt>Connectance</dt>
+<dd>
+<p>Measures the number of ‘functional’ joinings between habitat patches, where each pair of patches is either connected or not based on a species dispersal. Reported as a percentage of the maximum possible connectance given the number of patches.</p>
+</dd>
+</dl>
+</div>
+<div id="functional-connectivity" class="section level4 hasAnchor" number="4.3.2.4">
+<h4><span class="header-section-number">4.3.2.4</span> Functional connectivity<a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#functional-connectivity" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Based in circuit theory, <span class="citation">Shah and McRae (<a href="#ref-shah2008">2008</a>)</span>, where the landscape mosaic is conceptualized as a circuit where different landcover and environmental contraints provide ‘resistance’ to movement.</p>
+<p>To parameterize the resistance layer, I followed the protocols from <span class="citation">(<a href="#ref-dutta2022">Dutta et al. 2022</a>; <a href="#ref-prima2024">Prima et al. 2024</a>)</span>. Briefly, I used independent species observations from GBIF to parameterize habitat suitability models for functional bird groups. The suitability map from best fit models were then transformed into ‘resistance’ layers, such that unsuitable areas were high resistance and vice versa.</p>
+<p>These resistance layers were then imported into ‘<em>Omniscape’</em>, where it then iteratively applies ’current’ through the landscape in a moving window across each pixel of the resistance layer. The output then provides the total (cumulative) current flowing through the landscape, the mean values were then extracted for the checklists. Normalized current helps identify areas where current is impeded or channelized (e.g. more or less current than expected under null resistance conditions).</p>
+</div>
+</div>
+<div id="generalized-additive-modelling" class="section level3 hasAnchor" number="4.3.3">
+<h3><span class="header-section-number">4.3.3</span> Generalized additive modelling<a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#generalized-additive-modelling" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>I used generalized additive modelling to model the relationships between the response and the connectivity metrics, because I don’t think the relationships are strictly linear.</p>
+<p>I used the following modelling approach to try and disentangle the effects of habitat amount from connectivity while comparing the relative fit of each of the connectivity models. Model fit was compared using AIC.</p>
+<table style="width:100%;">
+<colgroup>
+<col width="23%" />
+<col width="46%" />
+<col width="30%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>Predictors</th>
+<th>Connectivity metric</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Null</strong></td>
+<td>sampling effort + spatial autocorrelation + sampling month</td>
+<td>none</td>
+</tr>
+<tr class="even">
+<td>Habitat amount</td>
+<td>sampling effort + spatial autocorrelation + sampling month +</td>
+<td>habitat amount (greenspace in buffer)</td>
+</tr>
+<tr class="odd">
+<td>Structural-NND</td>
+<td>sampling effort + spatial autocorrelation + sampling month + <strong>habitat amount</strong> +</td>
+<td>Euclidean nearest neighbour distance (NND)</td>
+</tr>
+<tr class="even">
+<td>Structural-IJI</td>
+<td>sampling effort + spatial autocorrelation + sampling month + <strong>habitat amount</strong> +</td>
+<td>Interspersion &amp; juxtaposition index</td>
+</tr>
+<tr class="odd">
+<td>Structural-PROX</td>
+<td>sampling effort + spatial autocorrelation + sampling month + <strong>habitat amount</strong> +</td>
+<td>Proximity index (PROX)</td>
+</tr>
+<tr class="even">
+<td>Structural-AI</td>
+<td>sampling effort + spatial autocorrelation + sampling month + <strong>habitat amount</strong> +</td>
+<td>Aggregation index (AI)</td>
+</tr>
+<tr class="odd">
+<td>Structural-MESH</td>
+<td>sampling effort + spatial autocorrelation + sampling month + <strong>habitat amount</strong> +</td>
+<td>Effective mesh size (MESH)</td>
+</tr>
+<tr class="even">
+<td>Graph-PC</td>
+<td>sampling effort + spatial autocorrelation + sampling month + <strong>habitat amount</strong> +</td>
+<td>Probability of connectivity index (PC)</td>
+</tr>
+<tr class="odd">
+<td>Graph-ECA</td>
+<td>sampling effort + spatial autocorrelation + sampling month + <strong>habitat amount</strong> +</td>
+<td>Equivalent connected area index (ECA)</td>
+</tr>
+<tr class="even">
+<td>Potential-SI</td>
+<td>sampling effort + spatial autocorrelation + sampling month + <strong>habitat amount</strong> +</td>
+<td>Incidence function measure (Si)</td>
+</tr>
+<tr class="odd">
+<td>Potential-CI</td>
+<td>sampling effort + spatial autocorrelation + sampling month + <strong>habitat amount</strong> +</td>
+<td>Connectance index (CI)</td>
+</tr>
+<tr class="even">
+<td>Functional-CCur</td>
+<td>sampling effort + spatial autocorrelation + sampling month + <strong>habitat amount</strong> +</td>
+<td>Mean cumulative current</td>
+</tr>
+<tr class="odd">
+<td>Functional-Ncur</td>
+<td>sampling effort + spatial autocorrelation + sampling month + <strong>habitat amount</strong> +</td>
+<td>Mean <em>normalized</em> current</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="results-2" class="section level2 hasAnchor" number="4.4">
+<h2><span class="header-section-number">4.4</span> Results<a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#results-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="float">
+<img src="images/allcities_SR_inScale_AIC_fREML_v2.png" alt="Fig. 2: AIC model comparison with species richness as the response variable. All models include a random effect for city, to control for inter-city differences. The model names correspond to the table above." />
+<div class="figcaption">Fig. 2: AIC model comparison with species richness as the response variable. All models include a random effect for city, to control for inter-city differences. The model names correspond to the table above.</div>
+</div>
+</div>
+<div id="next-steps-2" class="section level2 hasAnchor" number="4.5">
+<h2><span class="header-section-number">4.5</span> Next steps:<a href="ch3.-examining-urban-connectivity-measures-against-large-scale-citizen-science-data.html#next-steps-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Finish analyses (probably around end of October)</li>
+<li>Finalize results and figures</li>
+<li>Finish writing up the manuscript draft</li>
+<li>Submit to a fancy journal</li>
+<li>Convert this into proper formatting for PhD thesis chapter.</li>
+<li>Compile all the thesis chapters into a complete thesis, ready for defense (Early in the new year)</li>
+</ul>
+
+</div>
+</div>
+<h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
+<div id="ref-callaghan2024" class="csl-entry">
+Callaghan, Corey T., Jonathan M. Chase, and Daniel J. McGlinn. 2024. <span>“Anthropogenic Habitat Modification Causes Nonlinear Multiscale Bird Diversity Declines.”</span> <em>Ecography</em> 2024 (1): e06759. <a href="https://doi.org/10.1111/ecog.06759">https://doi.org/10.1111/ecog.06759</a>.
+</div>
+<div id="ref-dutta2022" class="csl-entry">
+Dutta, Trishna, Sandeep Sharma, Ninon F. V. Meyer, Jeremy Larroque, and Niko Balkenhol. 2022. <span>“An Overview of Computational Tools for Preparing, Constructing and Using Resistance Surfaces in Connectivity Research.”</span> <em>Landscape Ecology</em> 37 (9): 2195–2224. <a href="https://doi.org/10.1007/s10980-022-01469-x">https://doi.org/10.1007/s10980-022-01469-x</a>.
+</div>
+<div id="ref-keeley2021" class="csl-entry">
+Keeley, Annika T. H., Paul Beier, and Jeff S. Jenness. 2021. <span>“Connectivity Metrics for Conservation Planning and Monitoring.”</span> <em>Biological Conservation</em> 255 (March): 109008. <a href="https://doi.org/10.1016/j.biocon.2021.109008">https://doi.org/10.1016/j.biocon.2021.109008</a>.
+</div>
+<div id="ref-mcgarigalk.2023" class="csl-entry">
+McGarigal K., Cushman SA., and Ene E. 2023. <em>FRAGSTATS: Spatial Pattern Analysis Program for Categorical Maps.</em> University of Massachusetts, Amherst. <a href="https://www.fragstats.org">https://www.fragstats.org</a>.
+</div>
+<div id="ref-moilanen2002" class="csl-entry">
+Moilanen, Atte, and Marko Nieminen. 2002. <span>“Simple Connectivity Measures in Spatial Ecology.”</span> <em>Ecology</em> 83 (4): 1131–45. <a href="https://doi.org/10.1890/0012-9658(2002)083%5B1131:SCMISE%5D2.0.CO;2">https://doi.org/10.1890/0012-9658(2002)083[1131:SCMISE]2.0.CO;2</a>.
+</div>
+<div id="ref-prima2024" class="csl-entry">
+Prima, Marie-Caroline, Julien Renaud, Isabelle Witté, Léa Suarez, Paul Rouveyrol, Martina Fernando, Andrea Sacchi, et al. 2024. <span>“A Comprehensive Framework to Assess Multi-Species Landscape Connectivity.”</span> <em>Methods in Ecology and Evolution</em> 15 (12): 2385–99. <a href="https://doi.org/10.1111/2041-210X.14444">https://doi.org/10.1111/2041-210X.14444</a>.
+</div>
+<div id="ref-shah2008" class="csl-entry">
+Shah, Viral B., and Brad McRae. 2008. <span>“Python in Science Conference.”</span> In, 62–65. Pasadena, California. <a href="https://doi.org/10.25080/EWDJ4033">https://doi.org/10.25080/EWDJ4033</a>.
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="ch2.-how-does-urban-connectivity-affect-biological-responses-a-meta-analysis.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": false,
+    "twitter": false,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": ["_main.pdf"],
+  "search": {
+    "engine": "lunr",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection",
+    "collapsed": false,
+    "scroll_highlight": true
+  }
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
